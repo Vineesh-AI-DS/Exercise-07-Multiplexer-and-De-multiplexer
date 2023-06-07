@@ -32,6 +32,8 @@ Figure2 4X1 multiplexer If the control input is changed to 11, then all gates ar
 De-multiplexer is also a device with one input and multiple output lines. It is used to send a signal to one of the many devices. The main difference between a multiplexer and a de-multiplexer is that a multiplexer takes two or more signals and encodes them on a wire, whereas a de-multiplexer does reverse to what the multiplexer does. ![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/b6261e42-d58a-4797-8398-f25e9dcdf379)
 
 Figure 3 De-multiplexer 1-4 Demultiplexer The 1-to-4 demultiplexer comprises 1- input bit, 4-output bits, and control bits. The 1X4 demultiplexer circuit diagram is shown below.
+
+
 ![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/397aec5b-24af-4dfb-921f-7a20b8f34d55)
 
 ![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/fdda1a50-1bda-40d0-b9bc-aa3f2284db24)
