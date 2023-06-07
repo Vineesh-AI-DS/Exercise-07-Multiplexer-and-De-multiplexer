@@ -12,14 +12,16 @@ The multiplexer is a device that has multiple inputs and single line output. The
 
 The single-pole multi-position switch is a simple example of a non-electronic circuit of the multiplexer, and it is widely used in many electronic circuits. The multiplexer is used to perform high-speed switching and is constructed by electronic components.
 
-![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/ad611018-6078-4908-ab88-47166f5a6203)
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/d359fec4-7331-4526-953d-3ab04a87531e)
+
 
  Figure-01 multiplexer block diagram
 
 Multiplexers are capable of handling both analog and digital applications. In analog applications, multiplexers are made up of relays and transistor switches, whereas in digital applications, the multiplexers are built from standard logic gates. When the multiplexer is used for digital applications, it is called a digital multiplexer.
 
 4-to-1 Multiplexer The 4X1 multiplexer comprises 4-input bits, 1- output bit, and 2- control bits. The four input bits are namely 0, D1, D2, and D3, respectively; only one of the input bits is transmitted to the output. The o/p ‘q’ depends on the value of control input AB. The control bit AB decides which of the i/p data bit should transmit the output. The following figure shows the 4X1 multiplexer circuit diagram using AND gates. For example, when the control bits AB =00, then the higher AND gates are allowed while remaining AND gates are restricted. Thus, data input D0 is transmitted to the output ‘q” image
-![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/d09539f3-d2db-4b7b-aafb-4f1a0c1382fb)
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/04655e51-4a91-4d0c-a280-4ad55cf3cb88)
+
 
 
 Figure2 4X1 multiplexer If the control input is changed to 11, then all gates are restricted except the bottom AND gate. In this case, D3 is transmitted to the output, and q=D0. If the control input is changed to AB =11, all gates are disabled except the bottom AND gate. In this case, D3 is transmitted to the output, and q = D3. The best example of a 4X1 multiplexer is IC 74153. In this IC, the o/p is the same as the i/p. Another example of a 4X1 multiplexer is IC 45352. In this IC, the o/p is the compliment of the i/p
