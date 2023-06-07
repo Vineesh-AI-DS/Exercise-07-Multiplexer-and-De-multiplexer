@@ -4,10 +4,10 @@
 HARDWARE REQUIRED: – PC, Cyclone II , USB flasher
 SOFTWARE REQUIRED: Quartus prime
 ## THEORY:
-What are Multiplexer and Demultiplexer?
+## What are Multiplexer and Demultiplexer?
 In-network transmission, both the multiplexer and demultiplexer are combinational circuits. A multiplexer selects an input from several inputs then it is transmitted in the form of a single line. An alternative name of the multiplexer is MUX or data selector. A demultiplexer uses one input signal and generates many. So it is known as Demux or data distributor.
 
-What is a Multiplexer?
+## What is a Multiplexer?
 The multiplexer is a device that has multiple inputs and single line output. The select lines determine which input is connected to the output, and also increase the amount of data that can be sent over a network within a certain time. It is also called a data selector.
 
 The single-pole multi-position switch is a simple example of a non-electronic circuit of the multiplexer, and it is widely used in many electronic circuits. The multiplexer is used to perform high-speed switching and is constructed by electronic components.
@@ -20,7 +20,7 @@ Multiplexers are capable of handling both analog and digital applications. In an
 
 Figure2 4X1 multiplexer If the control input is changed to 11, then all gates are restricted except the bottom AND gate. In this case, D3 is transmitted to the output, and q=D0. If the control input is changed to AB =11, all gates are disabled except the bottom AND gate. In this case, D3 is transmitted to the output, and q = D3. The best example of a 4X1 multiplexer is IC 74153. In this IC, the o/p is the same as the i/p. Another example of a 4X1 multiplexer is IC 45352. In this IC, the o/p is the compliment of the i/p
 
-What is Demultiplexer?
+## What is Demultiplexer?
 De-multiplexer is also a device with one input and multiple output lines. It is used to send a signal to one of the many devices. The main difference between a multiplexer and a de-multiplexer is that a multiplexer takes two or more signals and encodes them on a wire, whereas a de-multiplexer does reverse to what the multiplexer does. image Figure 3 De-multiplexer 1-4 Demultiplexer The 1-to-4 demultiplexer comprises 1- input bit, 4-output bits, and control bits. The 1X4 demultiplexer circuit diagram is shown below.image
 
 image
@@ -87,23 +87,35 @@ endmodule
 ```
 ## RTL LOGIC
 ## MULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/d243421e-e725-47ee-94dd-80bf262407d1)
+
 
 
 ## DEMULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/e6b00284-ee38-4943-9776-36a9c43f69cb)
+
+
 
 
 ## TIMING DIGRAMS
 ## MULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/e5480f09-ae7e-439d-b20b-f8babe2cf601)
+
 
 
 ## DEMULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/0db4d348-e63e-4254-a28d-766e52afbf6e)
+
 
 
 ## TRUTH TABLE
 ## MULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/32e4f452-5b91-4855-a3c6-b59284cdfc40)
+
 
 
 ## DEMULTIPLEXER
+![image](https://github.com/Vineesh-AI-DS/Exercise-07-Multiplexer-and-De-multiplexer/assets/93427254/33b75f46-6e0b-4b08-b18b-cf6d409229bb)
 
 ## RESULTS
 Thus the implementation of Multiplexer and Demultiplexer are verified.
